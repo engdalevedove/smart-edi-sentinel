@@ -1,0 +1,186 @@
+{
+  "SKU-1001": {
+    "internal_sku": "SKU-1001",
+    "description": "Biscoito Cream Cracker Tradicional 350g",
+    "status": "ATIVO",
+    "base_price": 4.5,
+    "min_allowed_price": 4.2,
+    "max_discount_pct": 6.67,
+    "allowed_regions": [
+      "SP",
+      "PR",
+      "SC",
+      "RJ",
+      "MG"
+    ],
+    "substitute_sku": null,
+    "uom": "CX"
+  },
+  "SKU-1002": {
+    "internal_sku": "SKU-1002",
+    "description": "Biscoito Cream Cracker Folhado 350g",
+    "status": "ATIVO",
+    "base_price": 4.8,
+    "min_allowed_price": 4.4,
+    "max_discount_pct": 8.33,
+    "allowed_regions": [
+      "SP",
+      "PR",
+      "SC",
+      "RJ"
+    ],
+    "substitute_sku": null,
+    "uom": "CX"
+  },
+  "SKU-1003": {
+    "internal_sku": "SKU-1003",
+    "description": "Biscoito Recheado Chocolate Nova Formula 140g",
+    "status": "ATIVO",
+    "base_price": 2.9,
+    "min_allowed_price": 2.7,
+    "max_discount_pct": 6.9,
+    "allowed_regions": [
+      "SP",
+      "PR",
+      "RJ",
+      "MG",
+      "BA"
+    ],
+    "substitute_sku": null,
+    "uom": "CX"
+  },
+  "SKU-1004": {
+    "internal_sku": "SKU-1004",
+    "description": "Biscoito Recheado Baunilha 140g",
+    "status": "ATIVO",
+    "base_price": 2.9,
+    "min_allowed_price": 2.7,
+    "max_discount_pct": 6.9,
+    "allowed_regions": [
+      "SP",
+      "PR",
+      "RJ"
+    ],
+    "substitute_sku": null,
+    "uom": "CX"
+  },
+  "SKU-1005": {
+    "internal_sku": "SKU-1005",
+    "description": "Biscoito Recheado Morango 140g",
+    "status": "ATIVO",
+    "base_price": 2.9,
+    "min_allowed_price": 2.7,
+    "max_discount_pct": 6.9,
+    "allowed_regions": [
+      "SP",
+      "PR",
+      "MG"
+    ],
+    "substitute_sku": null,
+    "uom": "CX"
+  },
+  "SKU-1006": {
+    "internal_sku": "SKU-1006",
+    "description": "Torrada Salgada Tradicional 140g",
+    "status": "ATIVO",
+    "base_price": 4.2,
+    "min_allowed_price": 3.9,
+    "max_discount_pct": 7.14,
+    "allowed_regions": [
+      "SP",
+      "PR",
+      "SC"
+    ],
+    "substitute_sku": null,
+    "uom": "CX"
+  },
+  "SKU-1007": {
+    "internal_sku": "SKU-1007",
+    "description": "Torrada Multigrãos Integral 140g",
+    "status": "ATIVO",
+    "base_price": 5.1,
+    "min_allowed_price": 4.8,
+    "max_discount_pct": 5.88,
+    "allowed_regions": [
+      "SP",
+      "PR"
+    ],
+    "substitute_sku": null,
+    "uom": "CX"
+  },
+  "SKU-1008": {
+    "internal_sku": "SKU-1008",
+    "description": "Wafer Chocolate Crocante 115g",
+    "status": "ATIVO",
+    "base_price": 3.4,
+    "min_allowed_price": 3.1,
+    "max_discount_pct": 8.82,
+    "allowed_regions": [
+      "SP",
+      "PR",
+      "RJ",
+      "MG"
+    ],
+    "substitute_sku": null,
+    "uom": "CX"
+  },
+  "SKU-1009": {
+    "internal_sku": "SKU-1009",
+    "description": "Wafer Morango Especial 115g",
+    "status": "ATIVO",
+    "base_price": 3.4,
+    "min_allowed_price": 3.1,
+    "max_discount_pct": 8.82,
+    "allowed_regions": [
+      "SP"
+    ],
+    "substitute_sku": null,
+    "uom": "CX"
+  },
+  "SKU-1010": {
+    "internal_sku": "SKU-1010",
+    "description": "Biscoito Maisena Tradicional 360g",
+    "status": "ATIVO",
+    "base_price": 5.2,
+    "min_allowed_price": 4.9,
+    "max_discount_pct": 5.77,
+    "allowed_regions": [
+      "SP",
+      "PR",
+      "SC",
+      "RJ",
+      "MG",
+      "BA"
+    ],
+    "substitute_sku": null,
+    "uom": "CX"
+  },
+  "SKU-1003-OLD": {
+    "internal_sku": "SKU-1003-OLD",
+    "description": "Biscoito Recheado Chocolate Antigo 130g",
+    "status": "DESCONTINUADO",
+    "base_price": 2.9,
+    "min_allowed_price": 2.7,
+    "max_discount_pct": 6.9,
+    "allowed_regions": [
+      "SP",
+      "PR",
+      "RJ"
+    ],
+    "substitute_sku": "SKU-1003",
+    "uom": "CX"
+  },
+  "SKU-9999-BLOCKED": {
+    "internal_sku": "SKU-9999-BLOCKED",
+    "description": "Item Piloto Bloqueado Vendas 200g",
+    "status": "BLOQUEADO_COMERCIAL",
+    "base_price": 6.0,
+    "min_allowed_price": 5.5,
+    "max_discount_pct": 8.3,
+    "allowed_regions": [
+      "SP"
+    ],
+    "substitute_sku": null,
+    "uom": "CX"
+  }
+}

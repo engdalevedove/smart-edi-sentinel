@@ -1,0 +1,1988 @@
+[
+  {
+    "order_id": "EDI-20260001",
+    "customer_cnpj": "12.345.678/0001-90",
+    "customer_name": "Rede Nordeste Alimentos",
+    "region": "BA",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "bisc. cream cracker tradicional 350g",
+        "requested_quantity": 100,
+        "customer_unit_price": 4.5,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "BISC RECHEADO MORANGO 140GR",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.85,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260002",
+    "customer_cnpj": "06.057.223/0001-71",
+    "customer_name": "Assai Atacadista",
+    "region": "SP",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1003",
+        "customer_description": "bisc rch choc nova formula 140g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.23,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "BISCOITO RECH. BAUNILHA 140G",
+        "requested_quantity": 50,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1006",
+        "customer_description": "TORRADA SALGADA TRADICIONAL 140G",
+        "requested_quantity": 100,
+        "customer_unit_price": 4.2,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1002",
+        "customer_description": "Bisc. Cream Cracker Folhado 350G",
+        "requested_quantity": 100,
+        "customer_unit_price": 4.8,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260003",
+    "customer_cnpj": "47.508.411/0001-56",
+    "customer_name": "Companhia Brasileira de Distribuicao",
+    "region": "RJ",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "Biscoito Recheado Morango 140G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "biscoito recheado chocolate antigo 130g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1009",
+        "customer_description": "wafer morango especial 115g",
+        "requested_quantity": 500,
+        "customer_unit_price": 3.42,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": null,
+        "customer_description": "Bisc. RECH Baunilha 140g",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 5,
+        "customer_sku_code": null,
+        "customer_description": "torrada salgada trad. 140 g",
+        "requested_quantity": 50,
+        "customer_unit_price": 3.6,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260004",
+    "customer_cnpj": "12.345.678/0001-90",
+    "customer_name": "Rede Nordeste Alimentos",
+    "region": "BA",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "BISC RECHEADO MORANGO 140G",
+        "requested_quantity": 50,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1003-OLD",
+        "customer_description": "biscoito rech. choc antigo 130g",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.89,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": null,
+        "customer_description": "Torrada Salgada TRAD. 140g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 4.2,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": null,
+        "customer_description": "Biscoito Cream Cracker Folhado CX 350G",
+        "requested_quantity": 500,
+        "customer_unit_price": 3.77,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 5,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "Item Piloto Bloqueado Vendas 200g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 6.0,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 6,
+        "customer_sku_code": "SKU-1004",
+        "customer_description": "Bisc. Recheado Baunilha 140g",
+        "requested_quantity": 250,
+        "customer_unit_price": 2.92,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260005",
+    "customer_cnpj": "47.508.411/0001-56",
+    "customer_name": "Companhia Brasileira de Distribuicao",
+    "region": "RJ",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "WAFER CHOCOLATE CROCANTE 115G",
+        "requested_quantity": 50,
+        "customer_unit_price": 3.4,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1002",
+        "customer_description": "BISC CREAM CRACKER FOLHADO 350G",
+        "requested_quantity": 100,
+        "customer_unit_price": 4.8,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1004",
+        "customer_description": "BISCOITO RECHEADO BAUNILHA 140G",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1010",
+        "customer_description": "BISC MAISENA TRADICIONAL 360G",
+        "requested_quantity": 50,
+        "customer_unit_price": 5.2,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 5,
+        "customer_sku_code": "SKU-1003-OLD",
+        "customer_description": "bisc. rech. choc. antigo 130g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.72,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 6,
+        "customer_sku_code": null,
+        "customer_description": "BISC RECHEADO CHOCOLATE NOVA FORMULA 140G",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260006",
+    "customer_cnpj": "76.430.438/0001-00",
+    "customer_name": "Supermercados Muffato",
+    "region": "PR",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1007",
+        "customer_description": "Torrada MULTI GRAOS INTEGRAL 140g",
+        "requested_quantity": 100,
+        "customer_unit_price": 5.1,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1001",
+        "customer_description": "Bisc. Cream Cracker Tradicional 350G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 4.5,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": null,
+        "customer_description": "Item Piloto Bloqueado Vendas 200g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 6.0,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260007",
+    "customer_cnpj": "76.430.438/0001-00",
+    "customer_name": "Supermercados Muffato",
+    "region": "PR",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "bisc. cream cracker folhado 350 g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 4.8,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "BSCT MAISENA TRADICIONAL 360G",
+        "requested_quantity": 100,
+        "customer_unit_price": 5.18,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "Item Piloto Bloqueado Vendas 200g",
+        "requested_quantity": 50,
+        "customer_unit_price": 6.0,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260008",
+    "customer_cnpj": "76.430.438/0001-00",
+    "customer_name": "Supermercados Muffato",
+    "region": "PR",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "Bisc. Maisena Tradicional 360g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 5.01,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "Item Piloto Bloqueado Vendas 200g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 5.99,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": null,
+        "customer_description": "BISC CREAM CRACKER FOLHADO 350G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 4.8,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": null,
+        "customer_description": "BSCT RCH CHOCOLATE Antigo 130g",
+        "requested_quantity": 50,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 5,
+        "customer_sku_code": null,
+        "customer_description": "BISCOITO Recheado Baunilha 140 G",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.91,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260009",
+    "customer_cnpj": "04.641.376/0001-36",
+    "customer_name": "Supermercados BH",
+    "region": "MG",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "wafer morango especial 115g",
+        "requested_quantity": 100,
+        "customer_unit_price": 3.27,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "BSCT Cream Cracker Tradicional 350g",
+        "requested_quantity": 50,
+        "customer_unit_price": 4.26,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": null,
+        "customer_description": "BISCOITO Cream Cracker Folhado 350g",
+        "requested_quantity": 100,
+        "customer_unit_price": 3.51,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1010",
+        "customer_description": "Biscoito Maisena TRADICIONAL 360g",
+        "requested_quantity": 100,
+        "customer_unit_price": 5.22,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 5,
+        "customer_sku_code": null,
+        "customer_description": "BISC RECH CHOCOLATE NOVA FORMULA 140 G",
+        "requested_quantity": 100,
+        "customer_unit_price": 2.87,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260010",
+    "customer_cnpj": "47.508.411/0001-56",
+    "customer_name": "Companhia Brasileira de Distribuicao",
+    "region": "RJ",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1005",
+        "customer_description": "BISCOITO RCH MORANGO 140G",
+        "requested_quantity": 250,
+        "customer_unit_price": 2.12,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1002",
+        "customer_description": "biscoito cream cracker folhado 350gr",
+        "requested_quantity": 100,
+        "customer_unit_price": 3.4,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "ITEM PILOTO BLOQUEADO VENDAS 200G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 5.99,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1006",
+        "customer_description": "TORRADA SALGADA TRADICIONAL 140G",
+        "requested_quantity": 250,
+        "customer_unit_price": 4.2,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260011",
+    "customer_cnpj": "04.641.376/0001-36",
+    "customer_name": "Supermercados BH",
+    "region": "MG",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1003-OLD",
+        "customer_description": "biscoito rch choc antigo 130g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.39,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1002",
+        "customer_description": "BISCOITO CREAM CRACKER FOLHADO 350G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 4.8,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1005",
+        "customer_description": "BISCOITO RECH. MORANGO 140GR",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1009",
+        "customer_description": "WAFER MORANGO ESPECIAL 115G",
+        "requested_quantity": 100,
+        "customer_unit_price": 3.33,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260012",
+    "customer_cnpj": "75.315.333/0001-09",
+    "customer_name": "Atacadao S.A.",
+    "region": "SP",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1001",
+        "customer_description": "Biscoito Cream Cracker TRAD 350 G",
+        "requested_quantity": 100,
+        "customer_unit_price": 4.5,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "Item Piloto Bloqueado Vendas 200g",
+        "requested_quantity": 50,
+        "customer_unit_price": 6.0,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": null,
+        "customer_description": "Biscoito RECHEADO Baunilha 140G",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260013",
+    "customer_cnpj": "12.345.678/0001-90",
+    "customer_name": "Rede Nordeste Alimentos",
+    "region": "BA",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "Wafer Morango Especial 115g",
+        "requested_quantity": 500,
+        "customer_unit_price": 3.4,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1010",
+        "customer_description": "BISC. MAISENA TRADICIONAL 360G",
+        "requested_quantity": 250,
+        "customer_unit_price": 5.22,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": null,
+        "customer_description": "TORRADA SALGADA TRADICIONAL 140 G",
+        "requested_quantity": 500,
+        "customer_unit_price": 3.92,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1008",
+        "customer_description": "WAFER CHOCOLATE CROCANTE 115G",
+        "requested_quantity": 500,
+        "customer_unit_price": 3.4,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 5,
+        "customer_sku_code": "SKU-1007",
+        "customer_description": "Torrada MULTIGRAOS Integral 140GR",
+        "requested_quantity": 1000,
+        "customer_unit_price": 5.1,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 6,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "ITEM PILOTO BLOQUEADO VENDAS 200G",
+        "requested_quantity": 500,
+        "customer_unit_price": 6.0,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260014",
+    "customer_cnpj": "47.508.411/0001-56",
+    "customer_name": "Companhia Brasileira de Distribuicao",
+    "region": "RJ",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "ITEM PILOTO BLOQUEADO VENDAS 200G",
+        "requested_quantity": 500,
+        "customer_unit_price": 6.0,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1009",
+        "customer_description": "Wafer Morango Especial 115g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 3.38,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1010",
+        "customer_description": "BISCOITO MAISENA TRADICIONAL 360G",
+        "requested_quantity": 100,
+        "customer_unit_price": 5.18,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1004",
+        "customer_description": "BISCOITO RECHEADO BAUNILHA 140 G",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.25,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 5,
+        "customer_sku_code": null,
+        "customer_description": "WAFER CHOCOLATE CROCANTE 115G",
+        "requested_quantity": 50,
+        "customer_unit_price": 2.46,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 6,
+        "customer_sku_code": null,
+        "customer_description": "BISCOITO CREAM CRACKER FOLHADO 350G",
+        "requested_quantity": 100,
+        "customer_unit_price": 4.8,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260015",
+    "customer_cnpj": "47.508.411/0001-56",
+    "customer_name": "Companhia Brasileira de Distribuicao",
+    "region": "RJ",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1010",
+        "customer_description": "BSCT MAISENA TRADICIONAL 360G",
+        "requested_quantity": 100,
+        "customer_unit_price": 5.19,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1004",
+        "customer_description": "biscoito rech baunilha 140g",
+        "requested_quantity": 100,
+        "customer_unit_price": 2.23,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260016",
+    "customer_cnpj": "76.430.438/0001-00",
+    "customer_name": "Supermercados Muffato",
+    "region": "PR",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "Item Piloto Bloqueado Vendas 200g",
+        "requested_quantity": 50,
+        "customer_unit_price": 5.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1003-OLD",
+        "customer_description": "BISCOITO RECH CHOC. ANTIGO 130G",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1004",
+        "customer_description": "biscoito recheado baunilha 140g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.91,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1002",
+        "customer_description": "BISCOITO CREAM CRACKER FOLHADO 350GR",
+        "requested_quantity": 250,
+        "customer_unit_price": 4.8,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 5,
+        "customer_sku_code": "SKU-1005",
+        "customer_description": "BISCOITO RECHEADO MORANGO 140GR",
+        "requested_quantity": 100,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 6,
+        "customer_sku_code": null,
+        "customer_description": "Torrada MULTI GRAOS Integral 140GR",
+        "requested_quantity": 100,
+        "customer_unit_price": 5.1,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260017",
+    "customer_cnpj": "76.430.438/0001-00",
+    "customer_name": "Supermercados Muffato",
+    "region": "PR",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "item piloto bloqueado vendas 200g",
+        "requested_quantity": 500,
+        "customer_unit_price": 6.0,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1007",
+        "customer_description": "TORRADA MULTIGRAOS INTEG 140G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 5.1,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1008",
+        "customer_description": "wafer chocolate crocante 115g",
+        "requested_quantity": 250,
+        "customer_unit_price": 3.4,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260018",
+    "customer_cnpj": "06.057.223/0001-71",
+    "customer_name": "Assai Atacadista",
+    "region": "SP",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1002",
+        "customer_description": "BISC. CREAM CRACKER FOLHADO CX 350G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 4.8,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1004",
+        "customer_description": "BISC RECHEADO BAUNILHA 140 G",
+        "requested_quantity": 250,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": null,
+        "customer_description": "Torrada Salgada TRAD 140GR",
+        "requested_quantity": 50,
+        "customer_unit_price": 4.22,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260019",
+    "customer_cnpj": "04.641.376/0001-36",
+    "customer_name": "Supermercados BH",
+    "region": "MG",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "WAFER CHOC CROCANTE 115G",
+        "requested_quantity": 500,
+        "customer_unit_price": 3.13,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "ITEM PILOTO BLOQUEADO VENDAS 200G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 5.99,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1003-OLD",
+        "customer_description": "Biscoito RECH. CHOC. Antigo 130g",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.88,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1006",
+        "customer_description": "Torrada Salgada TRAD. 140GR",
+        "requested_quantity": 1000,
+        "customer_unit_price": 4.2,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260020",
+    "customer_cnpj": "12.345.678/0001-90",
+    "customer_name": "Rede Nordeste Alimentos",
+    "region": "BA",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1004",
+        "customer_description": "BISC RECH. BAUNILHA 140G",
+        "requested_quantity": 250,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1003-OLD",
+        "customer_description": "bsct recheado chocolate antigo 130g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.91,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260021",
+    "customer_cnpj": "12.345.678/0001-90",
+    "customer_name": "Rede Nordeste Alimentos",
+    "region": "BA",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1007",
+        "customer_description": "TORRADA MULTIGRAOS INTEGRAL 140G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 5.1,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1002",
+        "customer_description": "Biscoito Cream Cracker Folhado CX 350G",
+        "requested_quantity": 500,
+        "customer_unit_price": 4.81,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1009",
+        "customer_description": "wafer morango especial 115g",
+        "requested_quantity": 250,
+        "customer_unit_price": 3.4,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260022",
+    "customer_cnpj": "04.641.376/0001-36",
+    "customer_name": "Supermercados BH",
+    "region": "MG",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "biscoito cream cracker trad. 350 g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 4.51,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1002",
+        "customer_description": "biscoito cream cracker folhado 350g",
+        "requested_quantity": 50,
+        "customer_unit_price": 4.8,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1004",
+        "customer_description": "Biscoito RECHEADO Baunilha 140 G",
+        "requested_quantity": 250,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "ITEM PILOTO BLOQUEADO VENDAS 200G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 6.0,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260023",
+    "customer_cnpj": "76.430.438/0001-00",
+    "customer_name": "Supermercados Muffato",
+    "region": "PR",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "Wafer Chocolate Crocante 115g",
+        "requested_quantity": 100,
+        "customer_unit_price": 3.38,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1007",
+        "customer_description": "Torrada Multigrãos INTEGRAL 140G",
+        "requested_quantity": 250,
+        "customer_unit_price": 5.08,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1001",
+        "customer_description": "BISCOITO Cream Cracker TRAD 350G",
+        "requested_quantity": 250,
+        "customer_unit_price": 4.5,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1004",
+        "customer_description": "BSCT RECHEADO BAUNILHA 140G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 5,
+        "customer_sku_code": "SKU-1006",
+        "customer_description": "TORRADA SALGADA TRAD 140G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 4.22,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 6,
+        "customer_sku_code": "SKU-1005",
+        "customer_description": "bisc rch morango 140g",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.88,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260024",
+    "customer_cnpj": "06.057.223/0001-71",
+    "customer_name": "Assai Atacadista",
+    "region": "SP",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "Wafer Morango Especial 115g",
+        "requested_quantity": 500,
+        "customer_unit_price": 3.39,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "ITEM PILOTO BLOQUEADO VENDAS 200G",
+        "requested_quantity": 500,
+        "customer_unit_price": 5.99,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1007",
+        "customer_description": "Torrada Multigrãos Integral 140GR",
+        "requested_quantity": 50,
+        "customer_unit_price": 5.08,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1008",
+        "customer_description": "WAFER CHOCOLATE CROCANTE 115G",
+        "requested_quantity": 50,
+        "customer_unit_price": 3.4,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260025",
+    "customer_cnpj": "04.641.376/0001-36",
+    "customer_name": "Supermercados BH",
+    "region": "MG",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1001",
+        "customer_description": "BSCT Cream Cracker TRADICIONAL 350G",
+        "requested_quantity": 250,
+        "customer_unit_price": 4.46,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1003",
+        "customer_description": "BISCOITO Recheado CHOC Nova Formula 140GR",
+        "requested_quantity": 50,
+        "customer_unit_price": 2.43,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1007",
+        "customer_description": "Torrada Multigrãos Integral 140G",
+        "requested_quantity": 250,
+        "customer_unit_price": 3.64,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1003-OLD",
+        "customer_description": "BISCOITO RECHEADO CHOC ANTIGO 130G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 5,
+        "customer_sku_code": null,
+        "customer_description": "BISCOITO CREAM CRACKER FOLHADO 350G",
+        "requested_quantity": 250,
+        "customer_unit_price": 4.8,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260026",
+    "customer_cnpj": "12.345.678/0001-90",
+    "customer_name": "Rede Nordeste Alimentos",
+    "region": "BA",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "WAFER CHOC CROCANTE 115G",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.94,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1005",
+        "customer_description": "BISCOITO Recheado Morango 140 G",
+        "requested_quantity": 250,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260027",
+    "customer_cnpj": "04.641.376/0001-36",
+    "customer_name": "Supermercados BH",
+    "region": "MG",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "ITEM PILOTO BLOQUEADO VENDAS 200G",
+        "requested_quantity": 50,
+        "customer_unit_price": 6.0,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1005",
+        "customer_description": "Biscoito Recheado Morango 140g",
+        "requested_quantity": 250,
+        "customer_unit_price": 2.88,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1001",
+        "customer_description": "Bisc. Cream Cracker TRADICIONAL 350g",
+        "requested_quantity": 50,
+        "customer_unit_price": 4.48,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1007",
+        "customer_description": "TORRADA MULTI GRAOS INT 140G",
+        "requested_quantity": 100,
+        "customer_unit_price": 5.1,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260028",
+    "customer_cnpj": "75.315.333/0001-09",
+    "customer_name": "Atacadao S.A.",
+    "region": "SP",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "wafer morango especial 115g",
+        "requested_quantity": 500,
+        "customer_unit_price": 3.4,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "Torrada Salgada Tradicional 140 G",
+        "requested_quantity": 100,
+        "customer_unit_price": 4.2,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "Item Piloto Bloqueado Vendas 200g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 6.02,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260029",
+    "customer_cnpj": "06.057.223/0001-71",
+    "customer_name": "Assai Atacadista",
+    "region": "SP",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1007",
+        "customer_description": "TORRADA MULTIGRAOS INTEGRAL 140G",
+        "requested_quantity": 250,
+        "customer_unit_price": 5.1,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "bisc. cream cracker tradicional 350g",
+        "requested_quantity": 500,
+        "customer_unit_price": 3.34,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260030",
+    "customer_cnpj": "12.345.678/0001-90",
+    "customer_name": "Rede Nordeste Alimentos",
+    "region": "BA",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1003-OLD",
+        "customer_description": "BISC RECHEADO CHOC Antigo 130g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1007",
+        "customer_description": "Torrada MULTIGR Integral 140g",
+        "requested_quantity": 250,
+        "customer_unit_price": 4.98,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1002",
+        "customer_description": "BSCT Cream Cracker Folhado CX 350G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 4.44,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": null,
+        "customer_description": "Biscoito RECH CHOC Nova Formula 140g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.72,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260031",
+    "customer_cnpj": "76.430.438/0001-00",
+    "customer_name": "Supermercados Muffato",
+    "region": "PR",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1006",
+        "customer_description": "TORRADA SALGADA TRADICIONAL 140G",
+        "requested_quantity": 100,
+        "customer_unit_price": 4.07,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "Bisc. Recheado Baunilha 140 G",
+        "requested_quantity": 250,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260032",
+    "customer_cnpj": "75.315.333/0001-09",
+    "customer_name": "Atacadao S.A.",
+    "region": "SP",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "BSCT RECHEADO CHOC. ANTIGO 130G",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1001",
+        "customer_description": "bisc cream cracker trad. 350g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 4.5,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260033",
+    "customer_cnpj": "06.057.223/0001-71",
+    "customer_name": "Assai Atacadista",
+    "region": "SP",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "BISC RECHEADO CHOC ANTIGO 130G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1001",
+        "customer_description": "bsct cream cracker tradicional cx 350g",
+        "requested_quantity": 50,
+        "customer_unit_price": 4.5,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "Item Piloto Bloqueado Vendas 200g",
+        "requested_quantity": 100,
+        "customer_unit_price": 5.98,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1008",
+        "customer_description": "WAFER CHOC. CROCANTE 115G",
+        "requested_quantity": 250,
+        "customer_unit_price": 3.41,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 5,
+        "customer_sku_code": "SKU-1007",
+        "customer_description": "TORRADA MULTIGRAOS INT 140G",
+        "requested_quantity": 100,
+        "customer_unit_price": 5.1,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260034",
+    "customer_cnpj": "04.641.376/0001-36",
+    "customer_name": "Supermercados BH",
+    "region": "MG",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1010",
+        "customer_description": "BISC Maisena TRADICIONAL 360g",
+        "requested_quantity": 50,
+        "customer_unit_price": 5.2,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "Wafer Morango Especial 115g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 3.41,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260035",
+    "customer_cnpj": "75.315.333/0001-09",
+    "customer_name": "Atacadao S.A.",
+    "region": "SP",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1003-OLD",
+        "customer_description": "biscoito rch choc. antigo 130g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.87,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "wafer chocolate crocante 115g",
+        "requested_quantity": 250,
+        "customer_unit_price": 3.41,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1004",
+        "customer_description": "Biscoito RCH Baunilha 140G",
+        "requested_quantity": 100,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260036",
+    "customer_cnpj": "12.345.678/0001-90",
+    "customer_name": "Rede Nordeste Alimentos",
+    "region": "BA",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1002",
+        "customer_description": "BISCOITO CREAM CRACKER FOLHADO 350 G",
+        "requested_quantity": 100,
+        "customer_unit_price": 4.79,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "WAFER MORANGO ESPECIAL 115G",
+        "requested_quantity": 500,
+        "customer_unit_price": 3.39,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260037",
+    "customer_cnpj": "47.508.411/0001-56",
+    "customer_name": "Companhia Brasileira de Distribuicao",
+    "region": "RJ",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1008",
+        "customer_description": "Wafer CHOC. Crocante 115g",
+        "requested_quantity": 250,
+        "customer_unit_price": 3.4,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "TORRADA MULTI GRAOS INTEGRAL 140G",
+        "requested_quantity": 250,
+        "customer_unit_price": 5.1,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1005",
+        "customer_description": "bisc recheado morango 140 g",
+        "requested_quantity": 250,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1004",
+        "customer_description": "BISC RECHEADO Baunilha 140g",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 5,
+        "customer_sku_code": "SKU-1002",
+        "customer_description": "BISCOITO CREAM CRACKER FOLHADO 350GR",
+        "requested_quantity": 250,
+        "customer_unit_price": 3.7,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 6,
+        "customer_sku_code": "SKU-1003",
+        "customer_description": "BISC RECHEADO CHOC. Nova Formula 140g",
+        "requested_quantity": 50,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260038",
+    "customer_cnpj": "04.641.376/0001-36",
+    "customer_name": "Supermercados BH",
+    "region": "MG",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1009",
+        "customer_description": "WAFER MORANGO ESPECIAL 115G",
+        "requested_quantity": 100,
+        "customer_unit_price": 3.41,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "ITEM PILOTO BLOQUEADO VENDAS 200G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 6.0,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260039",
+    "customer_cnpj": "75.315.333/0001-09",
+    "customer_name": "Atacadao S.A.",
+    "region": "SP",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1003",
+        "customer_description": "biscoito rch chocolate nova formula 140g",
+        "requested_quantity": 250,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1003-OLD",
+        "customer_description": "BSCT RCH CHOC ANTIGO 130G",
+        "requested_quantity": 50,
+        "customer_unit_price": 2.72,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260040",
+    "customer_cnpj": "04.641.376/0001-36",
+    "customer_name": "Supermercados BH",
+    "region": "MG",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "Wafer Morango Especial 115g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 3.4,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1007",
+        "customer_description": "Torrada MULTIGRAOS Integral 140 G",
+        "requested_quantity": 50,
+        "customer_unit_price": 5.1,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1008",
+        "customer_description": "Wafer CHOC. Crocante 115g",
+        "requested_quantity": 250,
+        "customer_unit_price": 3.4,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "ITEM PILOTO BLOQUEADO VENDAS 200G",
+        "requested_quantity": 250,
+        "customer_unit_price": 6.0,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 5,
+        "customer_sku_code": "SKU-1001",
+        "customer_description": "BISC CREAM CRACKER TRADICIONAL 350G",
+        "requested_quantity": 250,
+        "customer_unit_price": 4.5,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 6,
+        "customer_sku_code": "SKU-1004",
+        "customer_description": "Biscoito RECH. Baunilha 140GR",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.19,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260041",
+    "customer_cnpj": "75.315.333/0001-09",
+    "customer_name": "Atacadao S.A.",
+    "region": "SP",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "Item Piloto Bloqueado Vendas 200g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 5.84,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "BISCOITO CREAM CRACKER FOLHADO 350G",
+        "requested_quantity": 500,
+        "customer_unit_price": 4.8,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1005",
+        "customer_description": "BISC. RCH MORANGO 140G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.89,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": null,
+        "customer_description": "WAFER MORANGO ESPECIAL 115G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 3.4,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 5,
+        "customer_sku_code": "SKU-1007",
+        "customer_description": "Torrada Multigrãos INT 140 G",
+        "requested_quantity": 250,
+        "customer_unit_price": 5.1,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 6,
+        "customer_sku_code": "SKU-1006",
+        "customer_description": "TORRADA SALGADA TRADICIONAL 140G",
+        "requested_quantity": 500,
+        "customer_unit_price": 4.2,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260042",
+    "customer_cnpj": "75.315.333/0001-09",
+    "customer_name": "Atacadao S.A.",
+    "region": "SP",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "Biscoito Recheado CHOC. Antigo 130g",
+        "requested_quantity": 250,
+        "customer_unit_price": 2.86,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1010",
+        "customer_description": "biscoito maisena tradicional 360g",
+        "requested_quantity": 50,
+        "customer_unit_price": 5.2,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1008",
+        "customer_description": "WAFER CHOC CROCANTE 115G",
+        "requested_quantity": 100,
+        "customer_unit_price": 2.42,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "Item Piloto Bloqueado Vendas 200g",
+        "requested_quantity": 500,
+        "customer_unit_price": 5.97,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260043",
+    "customer_cnpj": "04.641.376/0001-36",
+    "customer_name": "Supermercados BH",
+    "region": "MG",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "BSCT Recheado Baunilha 140g",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.88,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "TORRADA MULTIGRAOS INTEGRAL 140GR",
+        "requested_quantity": 100,
+        "customer_unit_price": 5.1,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": null,
+        "customer_description": "BISCOITO CREAM CRACKER FOLHADO 350GR",
+        "requested_quantity": 1000,
+        "customer_unit_price": 4.8,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1006",
+        "customer_description": "torrada salgada trad 140g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 4.2,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260044",
+    "customer_cnpj": "75.315.333/0001-09",
+    "customer_name": "Atacadao S.A.",
+    "region": "SP",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1005",
+        "customer_description": "bisc. rech. morango 140g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1007",
+        "customer_description": "TORRADA MULTIGR INT 140G",
+        "requested_quantity": 50,
+        "customer_unit_price": 5.1,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": null,
+        "customer_description": "BISC Cream Cracker TRADICIONAL 350G",
+        "requested_quantity": 250,
+        "customer_unit_price": 4.51,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260045",
+    "customer_cnpj": "04.641.376/0001-36",
+    "customer_name": "Supermercados BH",
+    "region": "MG",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": null,
+        "customer_description": "BISC. RECHEADO CHOC ANTIGO 130G",
+        "requested_quantity": 250,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1003",
+        "customer_description": "BISCOITO RECH. CHOC NOVA FORMULA 140G",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1008",
+        "customer_description": "Wafer Chocolate Crocante 115g",
+        "requested_quantity": 500,
+        "customer_unit_price": 3.4,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": null,
+        "customer_description": "bsct maisena tradicional 360g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 5.12,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260046",
+    "customer_cnpj": "75.315.333/0001-09",
+    "customer_name": "Atacadao S.A.",
+    "region": "SP",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1005",
+        "customer_description": "BISCOITO RECHEADO MORANGO 140 G",
+        "requested_quantity": 250,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1006",
+        "customer_description": "TORRADA SALGADA TRAD. 140G",
+        "requested_quantity": 100,
+        "customer_unit_price": 4.21,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1002",
+        "customer_description": "BISCOITO CREAM CRACKER FOLHADO CX 350G",
+        "requested_quantity": 250,
+        "customer_unit_price": 4.8,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1010",
+        "customer_description": "bisc maisena tradicional 360g",
+        "requested_quantity": 50,
+        "customer_unit_price": 5.2,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 5,
+        "customer_sku_code": "SKU-1003-OLD",
+        "customer_description": "BSCT RCH CHOC ANTIGO 130G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 6,
+        "customer_sku_code": "SKU-1008",
+        "customer_description": "Wafer CHOC. Crocante 115g",
+        "requested_quantity": 500,
+        "customer_unit_price": 3.4,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260047",
+    "customer_cnpj": "75.315.333/0001-09",
+    "customer_name": "Atacadao S.A.",
+    "region": "SP",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1003",
+        "customer_description": "BISCOITO Recheado Chocolate Nova Formula 140g",
+        "requested_quantity": 250,
+        "customer_unit_price": 2.89,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1002",
+        "customer_description": "Biscoito Cream Cracker Folhado 350g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 3.86,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260048",
+    "customer_cnpj": "75.315.333/0001-09",
+    "customer_name": "Atacadao S.A.",
+    "region": "SP",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1004",
+        "customer_description": "BISCOITO RCH BAUNILHA 140GR",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.71,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": null,
+        "customer_description": "biscoito recheado choc. nova formula 140 g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260049",
+    "customer_cnpj": "12.345.678/0001-90",
+    "customer_name": "Rede Nordeste Alimentos",
+    "region": "BA",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1003",
+        "customer_description": "Bisc. RECH. CHOCOLATE Nova Formula 140GR",
+        "requested_quantity": 1000,
+        "customer_unit_price": 2.75,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-9999-BLOCKED",
+        "customer_description": "ITEM PILOTO BLOQUEADO VENDAS 200G",
+        "requested_quantity": 100,
+        "customer_unit_price": 5.99,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1007",
+        "customer_description": "TORRADA MULTIGR INTEGRAL 140GR",
+        "requested_quantity": 50,
+        "customer_unit_price": 3.64,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": "SKU-1009",
+        "customer_description": "WAFER MORANGO ESPECIAL 115G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 3.41,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 5,
+        "customer_sku_code": null,
+        "customer_description": "bisc cream cracker tradicional 350gr",
+        "requested_quantity": 50,
+        "customer_unit_price": 4.41,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 6,
+        "customer_sku_code": null,
+        "customer_description": "bisc. maisena trad. 360g",
+        "requested_quantity": 250,
+        "customer_unit_price": 5.2,
+        "customer_uom": "CX"
+      }
+    ]
+  },
+  {
+    "order_id": "EDI-20260050",
+    "customer_cnpj": "12.345.678/0001-90",
+    "customer_name": "Rede Nordeste Alimentos",
+    "region": "BA",
+    "created_at": "2026-10-10T09:30:00",
+    "items": [
+      {
+        "line_number": 1,
+        "customer_sku_code": "SKU-1007",
+        "customer_description": "TORRADA MULTI GRAOS INTEG 140G",
+        "requested_quantity": 1000,
+        "customer_unit_price": 5.1,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 2,
+        "customer_sku_code": "SKU-1003",
+        "customer_description": "BISC. RECHEADO CHOCOLATE NOVA FORMULA 140G",
+        "requested_quantity": 500,
+        "customer_unit_price": 2.9,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 3,
+        "customer_sku_code": "SKU-1006",
+        "customer_description": "Torrada Salgada TRAD. 140G",
+        "requested_quantity": 100,
+        "customer_unit_price": 4.2,
+        "customer_uom": "CX"
+      },
+      {
+        "line_number": 4,
+        "customer_sku_code": null,
+        "customer_description": "wafer morango especial 115g",
+        "requested_quantity": 1000,
+        "customer_unit_price": 3.4,
+        "customer_uom": "CX"
+      }
+    ]
+  }
+]
