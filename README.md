@@ -27,19 +27,84 @@ O **SmartEDI-Sentinel** atua como um middleware inteligente que interceta, audit
 ## 🏗️ Arquitetura do Sistema
 
 ```mermaid
-graph TD
-    A[Pedido EDI Cliente: JSON/IDoc] --> B[SmartEDI Sentinel API]
-    B --> C[Fuzzy Matching & Normalização]
-    C --> D{Item Bloqueado/Descontinuado?}
-    D -- Sim --> E[Auto-Substituição por SKU Ativo]
-    D -- Não --> F[Validador de Preço & Tolerância]
+flowchart TD
+    A["Pedido EDI Cliente: JSON/IDoc"] --> B["SmartEDI Sentinel API"]
+    B --> C["Fuzzy Matching & Normalização"]
+    C --> D{"Item Bloqueado/Descontinuado?"}
+    D -- Sim --> E["Auto-Substituição por SKU Ativo"]
+    D -- Não --> F["Validador de Preço & Tolerância"]
     E --> F
-    F --> G{Divergência <= 0.5%?}
-    G -- Sim --> H[Ajuste Automático de Cêntimos]
-    G -- Não --> I{Abaixo do Piso?}
-    I -- Sim --> J[Encaminhamento Alçada Comercial]
-    I -- Não --> K[Aprovado com Desconto]
-    H --> L[Payload Reconciliado Pronto para SAP]
+    F --> G{"Divergência <= 0.5%?"}
+    G -- Sim --> H["Ajuste Automático de Cêntimos"]
+    G -- Não --> I{"Abaixo do Piso?"}
+    I -- Sim --> J["Encaminhamento Alçada Comercial"]
+    I -- Não --> K["Aprovado com Desconto"]
+    H --> L["Payload Reconciliado Pronto para SAP"]
     K --> L
-    J --> M[Fila de Auditoria Manual]
+    J --> M["Fila de Auditoria Manual"]
+```
 
+## ⚙️ Principais Funcionalidades
+
+* **Reconciliação Semântica Híbrida:** Mapeia descrições com abreviações agressivas (ex.: `BISC CREAM CRACK TRAD 350G` ➔ `SKU-1001`) através de algoritmo tokenizado em C++ (*RapidFuzz*).
+* **Substituição Autónoma de SKUs:** Deteta materiais descontinuados e direciona automaticamente para o item ativo substituto cadastrado no catálogo mestre.
+* **Tolerância Financeira Dinâmica:** Trata pequenas variações fiscais/arredondamento (`< 0.5%`) sem bloquear a faturação, enquanto sinaliza violações reais de margem.
+* **Auditoria Transparente:** Cada linha do pedido recebe rastreabilidade com justificativa, pontuação de confiança (*confidence score*) e ação tomada.
+
+---
+
+## 🚀 Como Executar
+
+### 1. Clonar o repositório e preparar o ambiente
+
+```bash
+git clone https://github.com/engdalevedove/smart-edi-sentinel.git
+cd smart-edi-sentinel
+python -m venv .venv
+```
+
+Ativação do ambiente virtual:
+
+* No Windows (PowerShell):
+  ```powershell
+  .\.venv\Scripts\Activate.ps1
+  ```
+* No Linux/macOS:
+  ```bash
+  source .venv/bin/activate
+  ```
+
+Instalação das dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Gerar a base simulada de dados
+
+```bash
+python src/data_generator.py
+```
+
+### 3. Executar os testes automatizados
+
+```bash
+pytest -v
+```
+
+### 4. Iniciar a API de reconciliação
+
+```bash
+uvicorn src.api.main:app --reload
+```
+
+Documentação interativa Swagger disponível em: `[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)`
+
+---
+## 📊 Métricas de Engenharia e Negócio
+
+| Métrica | Impacto Esperado |
+| :--- | :--- |
+| **Taxa de Auto-Reconciliação** | ~75% a 85% dos erros clássicos de entrada sanados sem intervenção manual |
+| **Tempo Médio de Libertação** | De horas de espera na fila manual para `< 150ms` por pedido |
+| **OTIF & SLA de Entrega** | Eliminação de perdas de janela de expedição por travamento sistémico |
